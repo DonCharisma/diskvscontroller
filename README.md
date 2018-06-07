@@ -39,3 +39,8 @@ chmod +x diskvscontroller.script.sh
 
 
 Tested - Debian Stretch 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) x86_64 GNU/Linux
+
+Thanks
+------
+Thanks to Jeremy Kerr - https://askubuntu.com/questions/168650/how-do-i-list-all-storage-devices-thumb-drives-external-hard-drives-that-are-c
+for providing the basic mechanism to query udevadm in a loop
