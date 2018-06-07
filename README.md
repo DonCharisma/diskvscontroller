@@ -15,7 +15,8 @@ were attached to which of my controllers
 
 Basically it's a quick and dirty query using udevadm
 
-Future improvements - Like to list the controller, then drives attached
+Future improvements :
+- Like to list the controller, then drives attached
 but it's simpler to query the drives then lookup controller each time
 - Like to have info presented a bit more concisely / orderly
 
