@@ -26,4 +26,16 @@ Future improvements :
 but it's simpler to query the drives then lookup controller each time
 - Like to have info presented a bit more concisely / orderly
 
+Usage
+-----
+
+Probably needs to be run as root or su, so sudo for some people
+
+Put script in home directory (or whereever)
+
+chmod +x diskvscontroller.script.sh
+
+./diskvscontroller.script.sh
+
+
 Tested - Debian Stretch 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) x86_64 GNU/Linux
