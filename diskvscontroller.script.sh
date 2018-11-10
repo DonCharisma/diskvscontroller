@@ -36,7 +36,7 @@ do
 	DEVPATH=`echo "$DISKINFO" | grep ^DEVPATH=`
 	echo "$DEVPATH"
 	echo "udevadm info --query=property --path=$device"
-	CONTROLLERPATH=`echo "$DEVPATH" | sed -n 's/^DEVPATH=*//p' | sed -n 's/ata.*//p'`
+	CONTROLLERPATH=`echo "$DEVPATH" | sed -n 's/^DEVPATH=*//p' | sed -n 's/\(ata\|host\|usb\).*//p'`
 	CONTROLLERINFO=`udevadm info --query=property --path=$CONTROLLERPATH`
 	echo ""
 	echo "CONTROLLER"
